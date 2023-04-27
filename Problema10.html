@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+<script>
+    const dia = Number(prompt('insira um dia '))
+    const hora = Number(prompt('insira hora '))
+    const minutos = Number(prompt("insira minitos"))
+    const segundos = Number(prompt("insira segundos") )
+
+    const diaSegundos = dia * 86400
+    const horaSegundos = hora * 3600
+    const minitosSegundos = minutos * 60
+    const total = diaSegundos + horaSegundos + minitosSegundos + segundos
+
+    document.write("O total é " + total)
+    </script>
